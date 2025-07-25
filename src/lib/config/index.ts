@@ -15,6 +15,10 @@ export const SITE = {
 
 export const NAVIGATION_LINKS: Link[] = [
   {
+    href: "/categories/insurance",
+    text: "Insurance",
+  },
+  {
     href: "/categories/technology",
     text: "Technology",
   },
