@@ -1,11 +1,11 @@
 import type { Link } from "../types";
 
 export const SITE = {
-  title: "Astro News",
-  description: "A news website built with Astro",
-  author: "Mohammad Rahmani",
-  url: "https://astro-news-six.vercel.app",
-  github: "https://github.com/Mrahmani71/astro-news",
+  title: "Insights",
+  description: "A insights website built with Astro",
+  author: "Jordan Mitchell",
+  url: "https://insights.jordan-mitchell.co.uk",
+  //github: "https://github.com/Mrahmani71/astro-news",
   locale: "en-US",
   dir: "ltr",
   charset: "UTF-8",
@@ -66,21 +66,21 @@ export const OTHER_LINKS: Link[] = [
     text: "Cookie Policy",
   },
   {
-    href: "https://astro-news-six.vercel.app/rss.xml",
+    href: "https://insights.jordan-mitchell.co.uk/rss.xml",
     text: "RSS",
   },
   {
-    href: "https://astro-news-six.vercel.app/sitemap-index.xml",
+    href: "https://insights.jordan-mitchell.co.uk/sitemap-index.xml",
     text: "Sitemap",
   },
 ];
 
 export const SOCIAL_LINKS: Link[] = [
-  {
-    href: "https://github.com",
-    text: "GitHub",
-    icon: "github",
-  },
+  //{
+  //  href: "https://github.com",
+  //  text: "GitHub",
+  //  icon: "github",
+  //},
   {
     href: "httpe://www.t.me",
     text: "Telegram",
