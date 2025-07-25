@@ -1,7 +1,7 @@
 import { formatDistanceToNow, parseISO, format } from "date-fns";
 
 const FORMAT_LONG = "EEEE, MMMM d, yyyy h:mm a zz";
-const FORMAT_SHORT = "MMMM dd, yyyy zz";
+const FORMAT_SHORT = "MMMM dd, yyyy zz"; // TODO: Need to change to UK format of dd, MMMM, YYYY
 
 const dateCache = new Map<string, Date>();
 
